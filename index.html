@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Today's Weather</title>
+  <link rel="stylesheet" href="./style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+  <h1>Today's Weather</h1>
+  <div class="container">
+    <div class="weather-input">
+      <h3>Enter a City Name</h3>
+      <input class="city-input" type="text" placeholder="E.g., New York, London, Tokyo">
+      <button class="search-btn">Search</button>
+    </div>
+    <div class="weather-data">
+      <div class="current-weather">
+        <div class="details">
+          <h2 id="city-name">Loading...</h2>
+          <h6 id="temperature">Temperature: __°C</h6>
+          <h6 id="wind-speed">Wind: __ M/S</h6>
+          <h6 id="humidity">Humidity: __%</h6>
+        </div>
+      </div>
+    </div>
+  </div>
+ 
+  <script src="./public/scripts.js" defer></script>
+
+
+</body>
+</html>
